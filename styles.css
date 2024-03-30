@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+
+  margin: 0;
+  padding: 0;
+  background-color: rgb(147, 185, 106);
+  padding: 20px 15px;
+  font-family: "Quicksand", sans-serif;
+  position: relative;
+  margin-inline: auto;
+
+  height: 100vh;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 20px 15px;
+}
+
+h2,
+h3 {
+  background-color: #e7e7e7;
+  padding: 15px;
+  color: #979797;
+  font-family: "Quicksand", sans-serif;
+}
+main {
+  padding: 20px 15px;
+  font-family: "Quicksand", sans-serif;
+}
+
+main > h2 {
+  background-color: #e7e7e7;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  font-family: "Quicksand", sans-serif;
+}
+
+main > li {
+  background-color: #4c5450;
+  padding: 15px;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+}
+
+main > h3 {
+  background-color: #60d0a8;
+  padding: 15px;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+}
+
+main > p {
+  background-color: hsl(56, 62%, 85%);
+  padding: 20px;
+  font-family: "Quicksand", sans-serif;
+  color: #4c5450;
+  font-weight: 1000;
+}
+
+main aside {
+  position: fixed;
+  inset-block: 0;
+  inset-inline-end: 0;
+  margin-right: 2rem;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: auto;
+  object-fit: auto;
+  object-position: center;
+  padding-inline: 3rem;
+}
+/* Kode lainnya disembunyikan... */
+
+.profile img {
+  width: 200px;
+}
+.card {
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: #4c5450;
+  text-align: justify;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.card p {
+  padding: 1rem;
+}
+
+.jumbotron {
+  font-size: 15px;
+
+  background-color: #00c8eb;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 20px 15px;
+}
+
+nav {
+  background-color: #00a2c6;
+  padding: 5px;
+
+  position: sticky;
+  top: 0;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+  padding-inline: 20px;
+}
+
+footer {
+  padding: 0%;
+  color: white;
+  background-color: #00a2c6;
+  font-weight: bold;
+}
+
+nav a {
+  font-size: 18px;
+  color: aliceblue;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+.profile header {
+  text-align: center;
+}
+
+.profile card {
+  padding: 10%;
+}
+
+#content {
+  flex-direction: column;
+  gap: 2rem;
+  width: 60%;
+}
+
+@media screen and (max-width: 1200px) {
+}
+/* Perangkat dengan lebar layar 768px dan di bawahnya */
+
+@media screen and (max-width: 768px) {
+  header.navbar-container {
+    flex-direction: column;
+  }
+}
+
+main .content {
+  flex-direction: column;
+  gap: 2rem;
+}
+/* Kode lainnya disembunyikan... */
